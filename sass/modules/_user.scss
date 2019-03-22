@@ -1,0 +1,44 @@
+#mainUser {
+    background-image: url(https://barbarashdwallpapers.com/white-wallpapers/);
+    background-repeat:no-repeat; 
+	background-size: 100% 100%;
+	background-position:center;
+}
+
+
+.bioPic {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.biotxt h1 {
+    text-transform: capitalize;
+    color: white;
+  }
+  .biotxt h1:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 2px;
+    content: "";
+    background-color: #c50000;
+  }
+  
+  .biotxt h1 span {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 3em;
+    padding-left: 0.25em;
+    color:white;
+    padding-bottom: 10px;
+  }
+  .alt-biotxt h1 {
+    text-align:center;
+  }
+  .alt-biotxt h1:before {
+    left:50%; margin-left:-30px;
+  }
