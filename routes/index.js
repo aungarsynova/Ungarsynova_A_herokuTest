@@ -5,7 +5,7 @@ const data = require('../data');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Yuour first Express App', message: "Express is not express at all" });
+  res.render('index', { title: 'Welcome to the show'});
 });
 
 //get a dynamic user via the route parametr
